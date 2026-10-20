@@ -22,3 +22,11 @@ button{
 a{
     margin-right: 190px;
 }
+
+#box1, #box2, #box3{
+    color: black;
+    background-color: pink;
+    height: 100px;
+    margin: 10px;
+    width:100px;
+}
