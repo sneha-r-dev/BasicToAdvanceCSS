@@ -1,10 +1,10 @@
-*{
+/* *{
     margin:0px;
     padding:0px;
     color : white;
-}
+} */
 
-#navbar{
+/* #navbar{
     background-color: black;
     height:60px;
     text-align: center;
@@ -29,4 +29,33 @@ a{
     height: 100px;
     margin: 10px;
     width:100px;
+} */
+
+div{
+    height: 100px;
+    width:100px;
+    margin: 25px;
+    padding: 25px;
+    /* display:inline; */
+    display: inline-block;
+}
+
+/* button{
+    color: black;
+    background-color: rgb(228, 192, 11);
+    display:block;
+} */
+
+
+#box1{
+    background-color: rgb(215, 95, 95);
+    display:none;
+}
+
+#box2{
+    background-color: rgb(95, 215, 95);
+    /* visibility: hidden;  this will hide the element but it will still take up space */
+}
+#box3{
+    background-color: rgb(95, 95, 215);
 }
