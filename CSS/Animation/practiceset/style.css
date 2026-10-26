@@ -1,0 +1,21 @@
+#loader{
+    /* background-color: blue; */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 20px solid yellow;
+    border-left: 20px solid black;
+    /* animation : spinAnimate 3s ease-in 0s infinite normal; */
+    animation : spinAnimate 3s steps(5) 0s infinite normal;
+
+
+}
+
+@keyframes spinAnimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
